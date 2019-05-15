@@ -33,4 +33,8 @@ class Song
   def self.artists
     return @@artists.uniq
   end
+  
+    def self.genre
+    return @@genre.uniq
+  end
 end

@@ -30,7 +30,7 @@ class Song
     return @@count
   end
   
-  # def artists
-  #   return @@artists.uniq
-  # end
+  def artists
+    return @@artists.uniq
+  end
 end

@@ -31,5 +31,6 @@ class Song
   end
   
   def artists
-    
+    return @@artists.uniq
+  end
 end

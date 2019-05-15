@@ -25,4 +25,11 @@ class Song
   def genre
     return @genre
   end
+  
+  def count
+    return @@count
+  end
+  
+  def artists
+    
 end

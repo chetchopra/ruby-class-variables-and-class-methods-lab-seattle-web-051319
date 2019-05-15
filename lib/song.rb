@@ -30,7 +30,7 @@ class Song
     return @@count
   end
   
-  def artists
+  def self.artists
     return @@artists.uniq
   end
 end

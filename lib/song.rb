@@ -45,6 +45,10 @@ class Song
     return @@genres.uniq
   end
   
+  def genre_count
+    return @@genre_count
+  end
+  
 
     
 end

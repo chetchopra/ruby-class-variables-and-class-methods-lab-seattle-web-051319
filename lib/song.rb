@@ -14,6 +14,8 @@ class Song
     @@count += 1
     @@artists << artist
     @@genres << genre
+    if genre_count.has_key?(genre)
+      genre_count[genre][count]
   end
   
   def name
